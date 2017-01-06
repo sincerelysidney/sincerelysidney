@@ -7,6 +7,7 @@
 	<title>Sincereley Sidney</title> <!-- this is what shows up at the top of the window -->
 
     <link href="base.css" rel="stylesheet"> <!-- this tells this file to look for CSS in base.css -->
+    <script src="menu.js" type="text/javascript"></script>
 
 </head>
 
@@ -15,22 +16,25 @@
 made here are visable on your site. -->
 
 <div class="header"> <!-- I'm a div! Look for 'header' in base.css to see my style-->
-	<span onclick="openNav()">
-		<div class="menu-icon"></div>
-		<div class="menu-icon"></div>
-		<div class="menu-icon"></div>
-	</span>
-	<div id="menuAnchor" class="menu-content">
+	<div id="mySidenav" class="sidenav">
 	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	   <a href="#">Link 1</a>
-	   <a href="#">Link 2</a>
-	   <a href="#">Link 3</a>
+	  <a href="#">About</a>
+	  <a href="#">Services</a>
+	  <a href="#">Clients</a>
+	  <a href="#">Contact</a>
+	</div>
+	<div class="menu-container" style="font-size:30px; cursor:pointer" onclick="openNav()">
+	<div class="menu-icon"></div>
+	<div class="menu-icon"></div>
+	<div class="menu-icon"></div>
 	</div>
 
 	<br>
 	<center>Sincerely Sindey</center>
 		
 </div> 
+
+
 
 <div id="main">
 	<table border="0" cellpadding="10" width="95%" align="center">
@@ -68,14 +72,4 @@ made here are visable on your site. -->
 	</table>
 </div>
 
-<script>
-  	function openNav() {
-    	document.getElementById("menu-content").style.width = "250px";
-	}
-
-	/* Set the width of the side navigation to 0 */
-	function closeNav() {
-    	document.getElementById("menu-content").style.width = "0";
-	}
-</script>
 </body>
