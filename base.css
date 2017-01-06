@@ -27,6 +27,33 @@ a {
 	text-decoration: none;
 }
 
+.featured img {
+;	clip: rect(0px,200px,200px,0px);
+}
+
+.featured {
+	display: inline-block;
+	position: relative;
+	overflow:hidden;
+	height: 250px;
+	width: 250px;
+}
+.featured-caption {
+	display: none;
+	position: absolute;
+	text-align: center;
+	color: white;
+	height: 250px;
+	width: 250px;
+}
+.featured:hover {
+	opacity: .5;
+}
+.featured:hover .featured-caption {
+	display: flex;
+	align-items: center;
+}
+
 h1, th {
 	text-align: center;
 	text-transform: uppercase;
