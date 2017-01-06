@@ -19,7 +19,7 @@
 	by their id (name) go look in the HTML file to see how we "link" these properties
 	to our actual content! */
 #header{ 
-	background: #48C9B0; /* this weird number/letting thing is a colour! */
+	background: #D4EFDF; /* this weird number/letting thing is a colour! */
 	width: 104vw;
 	height: 300px;
 	margin-top: -2vh;
