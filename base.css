@@ -56,15 +56,17 @@ h1, th {
 	by their class (name). Go look in the HTML file to see how we "link" these properties
 	to our actual content! */
 .header { 
-	background: #D4EFDF; /* this weird number/letting thing is a colour! */
+	background: black;
 	width: 104vw;
-	height: 250px;
+	height: 75px;
 	font-family: 'Pacifico', cursive;
 	font-size: 50px;
 	color: white;
 	margin-top: -2vh;
 	margin-left: -2vw;
 	margin-right: -2vw;
+	padding-left: 3vw;
+	overflow: hidden;
 }
 
 .menu-icon {
