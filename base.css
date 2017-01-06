@@ -20,6 +20,9 @@
 	to our actual content! */
 #header{ 
 	background: #48C9B0; /* this weird number/letting thing is a colour! */
-	width: 100%;
+	width: 104vw;
 	height: 300px;
+	margin-top: -2vh;
+	margin-left: -2vw;
+	margin-right: -2vw;
 }
