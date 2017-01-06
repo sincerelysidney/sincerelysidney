@@ -13,24 +13,6 @@
   src: url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600');
 } */
 
-p, body, table {
-  background-color: #fff;
-  text-decoration: none;
-  font-size: 14px;
-  color: #000;
-  font-family: 'Open Sans', sans-serif;
-}
-img {
-  display: inline-block;
-}
-
-th {
-	text-align:center;
-	font-weight: bold;
-	font-size: 20px;
-}
-
-
 /* 	this is a div! (division) named 'header'
 	divs in CSS that start with a hashtag are referenced in HTML 
 	by their id (name) go look in the HTML file to see how we "link" these properties
@@ -40,9 +22,41 @@ th {
 	width: 104vw;
 	height: 300px;
 	text-align: center;
-	font-family: ;
+  	font-family: 'Open Sans', sans-serif;
 	font-size: 50px;
 	margin-top: -2vh;
 	margin-left: -2vw;
 	margin-right: -2vw;
+}
+
+#menuIcon {
+	width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+p, body, table {
+  background-color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+b {
+	color: #A2D9CE;
+}
+i {
+	color: #48C9B0;
+}
+
+img {
+  display: inline-block;
+}
+
+th {
+	text-align:center;
+	font-weight: bold;
+	font-size: 20px;
 }
