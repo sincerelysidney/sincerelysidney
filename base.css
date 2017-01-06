@@ -12,11 +12,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 100%;
-      margin: auto;
-  }
 
 p, body, table {
   text-decoration: none;
@@ -24,7 +19,6 @@ p, body, table {
   color: #000;
   font-family: 'Open Sans', sans-serif;
 }
-h4 { color: white; }
 
 a {
 	color: black;
@@ -33,8 +27,7 @@ a {
 	text-decoration: none;
 }
 
-
-th {
+h1, th {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: lighter;
@@ -78,7 +71,6 @@ th {
 }
 .logo {
 	float:left;
-	text-align: left;
 }
 
 
