@@ -10,6 +10,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Zeyada');
 
 
 
@@ -38,28 +39,18 @@ a {
 	height: 250px;
 	width: 250px;
 }
-.featured-caption {
-	display: none;
-	position: absolute;
-	text-align: center;
-	color: white;
-	height: 250px;
-	width: 250px;
-}
+
 .featured:hover {
 	opacity: .5;
 }
-.featured:hover .featured-caption {
-	display: flex;
-	align-items: center;
-}
+
 
 h1, th {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: lighter;
 	font-size: 20px;
-	color: #717D7E;
+	color: black;
 	font-family: 'Open Sans', sans-serif;
 	margin: auto;
 }
@@ -96,7 +87,7 @@ h1, th {
 .logo {
 	float:left;
 	background:white;
-	font-family: 'Pacifico', cursive;
+font-family: 'Zeyada', cursive;
 	font-size: 50px;
 	color: black;
 }
