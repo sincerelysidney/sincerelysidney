@@ -18,7 +18,6 @@
       margin: auto;
   }
 
-
 p, body, table {
   text-decoration: none;
   font-size: 14px;
@@ -26,6 +25,7 @@ p, body, table {
   font-family: 'Open Sans', sans-serif;
 }
 h4 { color: white; }
+
 a {
 	color: black;
 	font-family: 'Open Sans', sans-serif;
@@ -33,13 +33,15 @@ a {
 	text-decoration: none;
 }
 
-h1, th {
+
+th {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: lighter;
 	font-size: 20px;
 	color: #717D7E;
 	font-family: 'Open Sans', sans-serif;
+	margin: auto;
 }
 
 /* 	this is a div! (division) named 'header'!
