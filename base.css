@@ -9,8 +9,8 @@
 	both otherwise you could cause some problems for your site! */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600');
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Zeyada');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
 
 
 
@@ -86,8 +86,9 @@ h1, th {
 }
 .logo {
 	float:left;
+	padding-left: 2vw;
 	background:white;
-font-family: 'Zeyada', cursive;
+	font-family: 'Zeyada', cursive;
 	font-size: 50px;
 	color: black;
 }
