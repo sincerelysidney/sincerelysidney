@@ -1,3 +1,25 @@
-#redBox{
-	background: red;
+
+/* 	Hi! I'm a CSS comment! I'm not code and I wont show up on 
+	your website, but I'm still helpful! You can use me to 
+	make notes about your code, write down ideas, or scream into
+	the void. Typically, though, I'm used for notes :) 
+	I can go across multiple lines!
+	Just like (most) of the code you write, I have a beginning tag 
+	and an ending tag (the asterisk and slash!) don't forget to use
+	both otherwise you could cause some problems for your site! */
+
+/*@font-face {
+  font-family: 'Voga';
+  src: url('fonts/Voga-Medium.otf');
+} */
+
+
+/* 	this is a div! (division) named 'header'
+	divs in CSS that start with a hashtag are referenced in HTML 
+	by their id (name) go look in the HTML file to see how we "link" these properties
+	to our actual content! */
+#header{ 
+	background: #48C9B0; /* this weird number/letting thing is a colour! */
+	width: 100%;
+	height: 300px;
 }
