@@ -44,11 +44,11 @@ img {
 }
 
 h1, th {
-	text-align:center;
 	text-transform: uppercase;
 	font-weight: lighter;
 	font-size: 20px;
 	color: #717D7E;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* 	this is a div! (division) named 'header'!
@@ -82,33 +82,33 @@ h1, th {
 	margin-left: 3vw;
 	margin-top: 1vh;
 }
-.sidenav {
+.menu {
     height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #E5E8E8;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    padding-left: 10px;
+    text-align: left;
 }
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
+.menu a {
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 16px;
     display: block;
-    transition: 0.3s
+    font-family: 'Open Sans', sans-serif;
+    color: #717D7E;
+}
+.menu a:hover {
+    color: black;
 }
 
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
+.menu .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -117,8 +117,8 @@ h1, th {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .menu {padding-top: 15px;}
+  .menu a {font-size: 18px;}
 }
 
 
