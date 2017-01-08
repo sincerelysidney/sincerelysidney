@@ -77,7 +77,6 @@ h2 {
 	margin: -2vh -2vw 0 -2vw;
 	padding: 2vh 3vw 0 3vw;
 	text-align: center;
-	position: fixed;
 	z-index: 1;
 }
 .header a {
@@ -95,12 +94,11 @@ h2 {
 .logo {
 	float:left;
 	padding-left: 2vw;
-	margin-top: -2vh;
+	margin-top: 0;
 	background:white;
 	font-family: 'Homemade Apple', cursive;
 	font-size: 35px;
 	color: black;
-	position: fixed;
 	z-index: 2;
 }
 
