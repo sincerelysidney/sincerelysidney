@@ -33,11 +33,12 @@ a {
 }
 
 .featured {
-	display: inline-block;
+	display: block;
 	position: relative;
 	overflow:hidden;
 	height: 250px;
 	width: 250px;
+	margin: auto;
 }
 
 .featured:hover {
